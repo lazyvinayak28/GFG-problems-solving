@@ -1,17 +1,18 @@
 class Solution {
   public:
-    vector<vector<int>> check(vector<int>t,vector<int> nums,vector<vector<int>> &v){
-        if(nums.size()==0){v.push_back(t);return v;}
-        int x=nums[0];
-        vector<int> temp(nums.begin()+1,nums.end());  
-        vector<int>t2=t;
-        t2.push_back(x);
-        check(t,temp,v);check(t2,temp,v);
-        return v;
-    }
-    vector<vector<int>> subsets(vector<int>& nums) {
+  void check(vector<int> temp,vector<int>arr,vector<vector<int>>&v){
+      if(arr.size()==0){v.push_back(temp);return ;}
+      temp.push_back(arr[0]);
+      arr.erase(arr.begin());
+      check(temp,arr,v);
+      temp.pop_back();
+      check(temp,arr,v);
+      
+  }
+    vector<vector<int>> subsets(vector<int>& arr) {
         vector<vector<int>>v;
-        vector<int>t(0);
-        return check(t,nums,v);
+        vector<int>temp;
+        check(temp,arr,v);
+        return v;
     }
 };
