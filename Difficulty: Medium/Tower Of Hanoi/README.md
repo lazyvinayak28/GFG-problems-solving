@@ -9,4 +9,4 @@ Explanation: </strong>For n = 3, total 7 steps will be taken.Steps are as follow
 <pre><span style="font-size: 14pt;"><strong>Input: </strong>n = 0
 <strong>Output: </strong>0<strong>
 Explanation: </strong>Total 0 steps will be taken.</span></pre>
-<p><strong><span style="font-size: 18px;">Constraints:</span></strong><br><span style="font-size: 18px;">&nbsp; 0 ≤ n ≤ 20</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Flipkart</code>&nbsp;<code>Microsoft</code>&nbsp;<code>MakeMyTrip</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Recursion</code>&nbsp;<code>Algorithms</code>&nbsp;
+<p><strong><span style="font-size: 18px;">Constraints:</span></strong><br><span style="font-size: 18px;">&nbsp; 0 ≤ n ≤ 20</span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Flipkart</code>&nbsp;<code>Microsoft</code>&nbsp;<code>MakeMyTrip</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Recursion</code>&nbsp;
